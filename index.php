@@ -12,7 +12,7 @@
  */
 
 get_header(); ?>
-   
+    <div class="row content-main">
 		<main id="main" class="medium-8 columns" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -44,7 +44,7 @@ get_header(); ?>
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'underfoundation' ); ?></h1>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
-      </div><!-- #content -->
+      </div><!-- content-main -->
 
 <?php  get_sidebar(); ?>
 <?php  get_footer(); ?>
