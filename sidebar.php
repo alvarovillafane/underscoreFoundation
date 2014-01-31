@@ -5,8 +5,9 @@
  * @package underfoundation
  */
 ?>
-	<div id="secondary" class="widget-area" role="complementary">
-		<?php do_action( 'before_sidebar' ); ?>
+   <div class="row sidebar">
+	<div id="secondary" class="medium-12 columns widget-area" role="complementary">
+		<?php //do_action( 'before_sidebar' ); ?>
 		<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
 			<aside id="search" class="widget widget_search">
@@ -31,3 +32,4 @@
 
 		<?php endif; // end sidebar widget area ?>
 	</div><!-- #secondary -->
+  </div>

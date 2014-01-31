@@ -10,8 +10,8 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
+	<footer id="colophon" class="row" role="contentinfo">
+		<div class="medium-12 columns">
 			<?php do_action( 'underfoundation_credits' ); ?>
 			<a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'underfoundation' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>

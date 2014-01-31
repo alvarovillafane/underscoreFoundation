@@ -115,3 +115,19 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+/**
+*  Add side-nav foundation class, to navigation
+*
+*
+**/
+
+function add_nav_class($output) {
+    $output= preg_replace('/<ul/', '<ul class="side-nav"', $output, -1);
+    return $output;
+}
+
+add_filter('wp_nav_menu', 'add_nav_class');
+
+?>

@@ -12,9 +12,8 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+   
+		<main id="main" class="medium-8 columns" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -40,7 +39,12 @@ get_header(); ?>
 		<?php endif; ?>
 
 		</main><!-- #main -->
-	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+		 <nav id="site-navigation" class="medium-4 columns" role="navigation">
+			<h1 class="menu-toggle"><?php _e( 'Menu', 'underfoundation' ); ?></h1>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav><!-- #site-navigation -->
+      </div><!-- #content -->
+
+<?php  get_sidebar(); ?>
+<?php  get_footer(); ?>
