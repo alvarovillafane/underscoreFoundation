@@ -7824,12 +7824,7 @@ th.hide-for-touch {
 
 /* line 57, foundation/Sass/sass/style.scss */
 .widget {
-  /*border: 1px red solid;*/
+  /*border: 1px red solid;
   padding: 10px;
-  float: left;
-}
-
-/* line 63, foundation/Sass/sass/style.scss */
-.widget:after {
-  clear: both;
+  float: left;*/
 }
