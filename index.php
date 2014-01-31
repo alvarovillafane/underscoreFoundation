@@ -12,6 +12,7 @@
  */
 
 get_header(); ?>
+<div id="content-page" class="12-medium columns">
     <div class="row content-main">
 		<main id="main" class="medium-8 columns" role="main">
 
@@ -47,4 +48,5 @@ get_header(); ?>
       </div><!-- content-main -->
 
 <?php  get_sidebar(); ?>
+  </div> <!-- content-page -->
 <?php  get_footer(); ?>

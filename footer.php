@@ -7,7 +7,7 @@
  * @package underfoundation
  */
 ?>
-     </div> <!--Columns -->
+  
 	</div><!-- #content -->
 
 	<footer id="colophon" class="row" role="contentinfo">

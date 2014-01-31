@@ -33,4 +33,4 @@
 	
 
 	<div id="content" class="row">
-	  <div class="12-medium columns">	
+	  	

@@ -7828,3 +7828,8 @@ th.hide-for-touch {
   padding: 10px;
   float: left;*/
 }
+
+/* line 63, foundation/Sass/sass/style.scss */
+.widget-area {
+  padding-top: 10px;
+}
